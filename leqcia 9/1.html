@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header,
+      footer {
+        padding: 20px;
+        background: linear-gradient(30deg, blue, red);
+        text-align: center;
+        text-shadow: 2px 2px 5px red;
+      }
+      nav {
+        background-color: black;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: blue;
+      }
+      main {
+        margin: 20px 0;
+      }
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+      }
+      .column:hover {
+        box-shadow: 3px 3px 20px gray;
+      }
+      footer {
+        clear: both;
+        color: white;
+        background: radial-gradient(circle, red, yellow, green);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <div class="column">
+        <h2>Column1</h2>
+        <p>loren ipsun</p>
+      </div>
+      <div class="column">
+        <h2>Column1</h2>
+        <p>loren ipsun</p>
+      </div>
+      <div class="column">
+        <h2>Column1</h2>
+        <p>loren ipsun</p>
+      </div>
+    </main> 
+    <footer>
+      <h1>Footer</h1>
+    </footer> 
+  </body>
+</html>

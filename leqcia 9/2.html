@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @keyframes myFirstAnimation {
+                0% {border-radius: 0px;}
+               
+                50% {
+                    border-radius: 50%;
+                }
+                100% {
+                    border-radius: 0px;
+                }
+            }
+            div {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border: 1px solid black;
+        clear: both;
+        margin-left: 30px;
+        transition: all 1s;
+        transition-timing-function: ease;
+        animation-name: myFirstAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+            .boxs {
+        /* transform: translate(20px, 30px); */
+        /* transform: rotate(45deg); */
+      }
+      .boxs:hover {
+        /* box-shadow: 5px 5px 25px gray;
+        background-color: brown;
+        border-radius: 50%; */
+        width: 400px;
+      }
+
+        </style>
+    </head>
+    <body>
+        <div class="boxs"></div>
+    <!-- <div class="box"></div> -->
+    </body>
+</html>
